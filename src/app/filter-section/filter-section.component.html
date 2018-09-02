@@ -1,0 +1,17 @@
+<!-- <label *ngIf="searchButtonToggle"> {{ errorMessage }}</label> -->
+
+<section class = "filter">
+  <input type="text" [(ngModel)] ="searchBox" (change)="checkAllInputs()" class="search-box" placeholder="Enter Hotel here.">
+  <div>
+    <label>FROM:</label>
+    <input  type="date" [(ngModel)] ="fromDate" (change)="checkFromDate()" class="from-date">
+  </div>  
+  <div>
+    <label>TO:</label>
+    <input type="date" [(ngModel)] ="toDate" class = "to-date" (change)="checkAllInputs()" [disabled]="toDateToggle">
+  </div>
+  <input type="button"  value = "SEARCH" class="search-button" (click)="search()" [disabled] = "searchButtonToggle">
+</section>
+<section class = "error-message">
+    <p>{{errorMessage}}</p>
+  </section>

@@ -1,0 +1,55 @@
+.card-bg{
+    background-color: #52658f;
+    
+}
+.card-collection{
+    height: 100vh;
+    padding: 2rem;
+    max-width:64rem;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+    background-color: #52658f;
+}
+.search-card{
+    padding: 1rem;
+    width: 90%;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    background-color: #e9e9e9;
+}
+.hotel-image{
+    width: 15rem;
+    border: 1px solid;
+}
+.rating{
+    width:40%;
+}
+.checked {
+    color: orange;
+}
+.address-button{
+    width: 20%;
+}
+.red {
+    background-color: #a91b0d; 
+}
+.yellow {
+    background-color: #EB9605;
+}
+.green {
+    background-color: green;
+}
+.book-button{
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    border: none;
+
+}
+

@@ -1,0 +1,33 @@
+.header-bg{
+    background-color: #333a56;
+}
+.header {
+    max-width: 1024px;
+    margin: 0 auto; 
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.logo {
+    width: 9.5rem;
+    padding: 0.5rem;
+}
+
+.doc-button {
+   height:4rem;
+   margin-right: 1rem;
+   color: white;
+   padding: 1rem;
+   border: 5px solid white;
+   font-weight: bold;
+   background-color: transparent;
+   /*border-radius: 0.5rem;*/
+   font-size: 1rem;
+   letter-spacing: 0.1rem;
+}
